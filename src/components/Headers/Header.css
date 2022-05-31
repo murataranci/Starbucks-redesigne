@@ -1,0 +1,23 @@
+.navbar{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    background: rgb(2,235,238);
+    background: linear-gradient(0deg, rgba(2,235,238,1) 0%, rgba(238,219,105,1) 71%); 
+    height: 170px;
+}
+.starbucksLogo{
+    width: 200px;
+    height: 120px;
+    margin-right: 120px;
+}
+.menu{
+    margin-right: 120px;
+    color:white;
+}
+.arama{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 60px 8px 10px;
+    color: white;
+}
