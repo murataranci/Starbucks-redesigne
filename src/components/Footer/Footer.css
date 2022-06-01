@@ -1,0 +1,45 @@
+.footer-container{
+    background-color: #d4cda9;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.starbucks-logo{
+    width: 80%;
+}
+.footer-container p{
+    font-size: 90%;
+    color: #867E76;
+    cursor: pointer;
+}
+.gray-line{
+    width: 100%;
+    height: 100%;
+    color: #867E76;
+    border: 1px solid #867E76
+}
+.Radius-logo{
+    border-radius: 50%;
+}
+.logo-size{
+    font-size: 150%;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #d4cda9;
+}
+.logo-size:hover{
+    background-color:#d4cda9;
+    font-size: 250%;
+    color: black;
+    transition:0.3s;
+    transition-timing-function: linear;
+}
+
+@media screen and (max-width:768px){
+    #footer1,#footer2,#footer3,#footer4,#footer5,#footer6{
+        width: 100%;
+    }
+    #Privacy-pol,#Terms-of-Use,#CA-Suply,#Cookie-Pre{
+        width: 100;
+    }
+    }
