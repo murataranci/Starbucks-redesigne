@@ -11,8 +11,13 @@
 }
 .starbucksLogo{
     width: 11%;
-    height: 60%;
+    height: 65%;
     margin-right: 8%;
+    cursor: pointer;
+    transition: transform 1000ms ease-in-out;
+}
+.starbucksLogo:hover{
+    transform:rotate(360deg) scale(1.1);
 }
 .menu{
     margin-right: 8%;
@@ -37,6 +42,9 @@
     cursor: pointer;
     border-radius: 0 10px 10px 0;
     margin-right: 30%;
+}
+.user{
+    font-size:20px;
 }
 .giris{
     border-radius: 10px;
