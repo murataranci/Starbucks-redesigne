@@ -6,7 +6,7 @@ import {AiOutlineUser} from 'react-icons/ai'
 
 const Header = () => {
   return (
-    <div className='navbar'>
+    <div className='Header'>
         <img className='starbucksLogo' src='https://marka-logo.com/wp-content/uploads/2020/09/Starbucks-Logo.png'></img>
         <a className='menu' href=''>Menü</a>
         <input className='arama' placeholder='Aramadığınız ürünü yazınız..'></input><button className='searchButton'><FaSearch/></button>

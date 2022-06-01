@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;700&family=Teko&display=swap');
-.navbar{
+.Header{
     
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@
 
 }
 .searchButton{
-    height: 26%;
+    height: 25%;
     background-color: white;
     border: none;
     cursor: pointer;
