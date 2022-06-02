@@ -1,13 +1,11 @@
-import './App.css';
-import Header from './components/Headers/Header';
-import Footer from './components/Footer/Footer';
-
+import "./App.css";
+import Pages from "./utils/routes/pages";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <>
-    <Header></Header>
-    <Footer/>
+      <Pages />
     </>
   );
 }
