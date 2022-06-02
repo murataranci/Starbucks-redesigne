@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;700&family=Teko&display=swap');
+@import 'animate.css';
+
 .Header{
     
     display: flex;
@@ -8,16 +10,17 @@
     background-image: linear-gradient(43deg, #ffffff 20%, #007146 90%);
     height:160px;
     font-family: 'Montserrat', sans-serif;
+    
 }
 .starbucksLogo{
     width: 11%;
     height: 65%;
     margin-right: 8%;
     cursor: pointer;
-    transition: transform 1000ms ease-in-out;
-}
-.starbucksLogo:hover{
-    transform:rotate(360deg) scale(1.1);
+    animation:fadeInLeft;
+    animation-duration: 2.5s;
+   
+    
 }
 .menu{
     margin-right: 8%;
