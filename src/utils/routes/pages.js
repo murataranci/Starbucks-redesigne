@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Layout from '../../components/Layout'
 import Menu from "../../components/menu/Menu"
 import Home from "../../components/Home"
-import Sepet from "../../components/Sepet"
+import Sepet from "../../components/Sepet/Sepet"
 
 const Pages= () => {
   return (

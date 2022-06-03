@@ -27,10 +27,12 @@ const Header = () => {
       <button className="searchButton">
         <FaSearch />
       </button>
+      <div className="giris">
       <AiOutlineUser className="user" />
-      <a className="giris" href="">
+      <div href="">
         Giriş yap
-      </a>
+      </div>
+      </div>
       <a className="kayıt" href="">
         Kayıt ol
       </a>
