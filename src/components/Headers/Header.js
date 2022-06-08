@@ -23,12 +23,12 @@ const Header = () => {
       <button className="searchButton">
         <FaSearch />
       </button>
-      <div className="giris">
+      <Link to={"/giris-yap"} className="giris">
       <AiOutlineUser className="user" />
       <div href="">
         Giriş yap
       </div>
-      </div>
+      </Link>
       <a className="kayıt" href="">
         Kayıt ol
       </a>

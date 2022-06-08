@@ -7,6 +7,7 @@ import Sepet from "../../components/Sepet/Sepet"
 import Kahveler from "../../components/menu/Kahveler/Kahveler"
 import Paketcaylar from "../../components/menu/Paketcaylar/Paketcaylar"
 import Aksesuarlar from "../../components/menu/Aksesuarlar/Aksesuarlar"
+import SignInUp from "../../containers/SignInUp/SignInUp";
  
 const Pages= () => {
   return (
