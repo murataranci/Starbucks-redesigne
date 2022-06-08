@@ -5,7 +5,7 @@ import { FaTrashAlt } from "react-icons/fa";
 const Sepet = () => {
   const createOptions = () => {
     let options = [];
-    for (let i = 1; i <= 20; i++) options.push(<option>{i}</option>);
+    for (let i = 1; i <= 10; i++) options.push(<option>{i}</option>);
     return options;
   };
   return (
@@ -88,7 +88,7 @@ const Sepet = () => {
           <b>Toplam</b>
           <b>55.98</b>
         </div>
-        <button className="satınalbuton"><b>Satın Al</b></button>
+        <button className="satınalbuton"><b>Sepeti Onayla</b></button>
       </div>
     </div>
   );

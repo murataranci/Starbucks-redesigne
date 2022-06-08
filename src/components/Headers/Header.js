@@ -1,8 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { FaSearch } from "react-icons/fa";
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
+import { AiOutlineShoppingCart,AiOutlineUser } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
@@ -16,10 +15,7 @@ const Header = () => {
           navigate("/");
         }}
       ></img>
-      <Link className="menu" to={"/menu"}>
-        {" "}
-        Menü
-      </Link>
+      <Link className="menu" to={"/menu"}> Menü</Link>
       <input
         className="arama"
         placeholder="Aramadığınız ürünü yazınız.."

@@ -31,14 +31,18 @@
     background-color: white;
 }
 .urunfiyat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     cursor: pointer;
-    margin-right: 0;
+    margin-right: 2%;
 }
 .satinal{
     display: flex;
     flex-direction: column;
     padding-left: 5%;
     margin-bottom: 5%;
+    
 }
 .sepettutari{
   display: flex;
