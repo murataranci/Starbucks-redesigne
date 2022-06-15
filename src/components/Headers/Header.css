@@ -2,7 +2,6 @@
 @import 'animate.css';
 
 .Header{
-    
     display: flex;
     align-items: center;
     background: rgb(195, 195, 195);
@@ -59,7 +58,6 @@
     text-decoration: none;
     margin-right: 1%;
     font-weight: bold;
-    font-size: 100%;
     cursor: pointer;
 }
 .giris:hover{
@@ -72,7 +70,7 @@
     color: black;
     text-decoration: none;
     font-weight: bold;
-    font-size:100%;
+
     
 }
 .kayıt:hover{

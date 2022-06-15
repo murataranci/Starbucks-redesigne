@@ -18,7 +18,7 @@ const Header = () => {
       <Link className="menu" to={"/menu"}> Menü</Link>
       <input
         className="arama"
-        placeholder="Aramadığınız ürünü yazınız.."
+        placeholder="Aradığınız ürünü yazınız.."
       ></input>
       <button className="searchButton">
         <FaSearch />
