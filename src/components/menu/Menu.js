@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <div className='menu container-fluid'>
+    <div className='menudetay container'>
       <div className='kahveler'>
         <Link className='kahveyazi' to={'/menu/kahveler'}>Kahveler</Link>
       </div>  

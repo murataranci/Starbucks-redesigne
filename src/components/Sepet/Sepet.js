@@ -9,33 +9,13 @@ const Sepet = () => {
     return options;
   };
   return (
-    <div className="sepet-container container-fluid">
+    <div className="sepet-container container">
       <div className="sepet-card col-8">
       <div className="urun">
         <div className="urundetay">
           <img
             className="urunresim"
-            src="https://myderya.com/wp-content/uploads/2021/03/moccha-1024x1024.jpg"
-          ></img>
-          <div className="ms-3">
-            <h4>Caramel Frappucino</h4>
-            <h6>Nefis bir yaz içeceği</h6>
-          </div>
-          <form className="ms-3 mt-1">
-            <select className="urunadet">{createOptions()}</select>
-          </form>
-        </div>
-        <div className="urunfiyat">
-          <FaTrashAlt className="ms-4"/>
-          <h5 className="mt-3">39.99</h5>
-          <h6 className="mt-1 text-decoration-line-through text-secondary" >55.99</h6>
-        </div>
-      </div>
-      <div className="urun">
-        <div className="urundetay">
-          <img
-            className="urunresim"
-            src="https://myderya.com/wp-content/uploads/2021/03/moccha-1024x1024.jpg"
+            src="https://www.londondrugs.com/on/demandware.static/-/Sites-londondrugs-master/default/dw8da87e4f/products/L8696353/large/L8696353.JPG"
           ></img>
           <div className="ms-3">
             <h4>Caramel Frappucino</h4>
@@ -47,15 +27,15 @@ const Sepet = () => {
         </div>
         <div className="urunfiyat">
           <FaTrashAlt className="ms-4"/>
-          <h5 className="mt-3">39.99</h5>
-          <h6 className="mt-1 text-decoration-line-through text-secondary" >55.99</h6>
+          <h6 className="mt-3 text-decoration-line-through text-secondary" >55.99 TL</h6>
+          <h5 className="mt-1">39.99TL</h5>
         </div>
       </div>
       <div className="urun">
         <div className="urundetay">
           <img
             className="urunresim"
-            src="https://myderya.com/wp-content/uploads/2021/03/moccha-1024x1024.jpg"
+            src="https://www.londondrugs.com/on/demandware.static/-/Sites-londondrugs-master/default/dw8da87e4f/products/L8696353/large/L8696353.JPG"
           ></img>
           <div className="ms-3">
             <h4>Caramel Frappucino</h4>
@@ -67,8 +47,28 @@ const Sepet = () => {
         </div>
         <div className="urunfiyat">
           <FaTrashAlt className="ms-4"/>
-          <h5 className="mt-3">39.99</h5>
-          <h6 className="mt-1 text-decoration-line-through text-secondary" >55.99</h6>
+          <h6 className="mt-3 text-decoration-line-through text-secondary" >55.99 TL</h6>
+          <h5 className="mt-1">39.99TL</h5>
+        </div>
+      </div>
+      <div className="urun">
+        <div className="urundetay">
+          <img
+            className="urunresim"
+            src="https://www.londondrugs.com/on/demandware.static/-/Sites-londondrugs-master/default/dw8da87e4f/products/L8696353/large/L8696353.JPG"
+          ></img>
+          <div className="ms-3">
+            <h4>Caramel Frappucino</h4>
+            <h6>Nefis bir yaz içeceği</h6>
+          </div>
+          <form className=" ms-3 mt-1">
+            <select className="urunadet">{createOptions()}</select>
+          </form>
+        </div>
+        <div className="urunfiyat">
+          <FaTrashAlt className="ms-4"/>
+          <h6 className="mt-3 text-decoration-line-through text-secondary" >55.99 TL</h6>
+          <h5 className="mt-1">39.99TL</h5>
         </div>
       </div>
       
@@ -78,15 +78,15 @@ const Sepet = () => {
         <h4>Sipariş Özeti</h4>
         <div className="sepettutari">
         <p>Sepet Tutarı</p>
-        <p>39.99</p>
+        <p>119.97 TL</p>
         </div>
         <div className="kargoucreti">
           <p>Kargo Ücreti</p>
-          <p>14.99</p>
+          <p>14.99 TL</p>
         </div>
         <div className="toplamfiyat">
           <b>Toplam</b>
-          <b>55.98</b>
+          <b>135.96 TL</b>
         </div>
         <button className="satınalbuton"><b>Sepeti Onayla</b></button>
       </div>

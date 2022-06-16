@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;700&family=Teko&display=swap');
+
+.kahveNavbar{
+    height:200px;
+    width: 100%;
+    cursor: pointer;
+    background-image:url(https://kahvebaz.com/wp-content/uploads/2016/11/convert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.kahveyazii{
+  padding-top: 65px;
+  font-size:4rem;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kahvecard{
+  width:25%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  cursor: pointer;
+  border: none !important;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  background-color: #007146 !important;
+  color: white !important;
+  border: none !important;
+  margin-top: 10%;
+  width:100%;
+}
+.card-text{
+  margin-left: 5%;
+}
+.price{
+  margin-left: 5%;
+}
+.card-img-top{
+  margin-top: 5%;
+  object-fit: contain;
+  transition: transform 2s;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+}
