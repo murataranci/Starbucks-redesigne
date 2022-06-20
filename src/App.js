@@ -1,14 +1,14 @@
 import "./App.css";
-import Pages from "./utils/routes/pages";
-// import FakeData from "./FakeDataFolder/FakeData";
+import PagesRoutes from "./services/routes/index";
+
 
 
 
 function App() {
   return (
     <>
-      <Pages />
-      {/* <FakeData/> */}
+      <PagesRoutes />
+    
     
     </>
   );

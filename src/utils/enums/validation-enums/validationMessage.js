@@ -1,7 +1,9 @@
 const ValidationMessages = Object.freeze({
-    REQUIRED: "",
-    EMAIL: "We cannot find an account with that email address",
-    PASSWORDNOTMATCH: "Passwords is not match",
+    REQUIRED: "Zorunlu alan",
+    EMAIL: "Lütfen geçerli bir email adresi giriniz",
+    PASSWORDNOTMATCH: "Şifreler eşleşmiyor",
+    MINCHARACTER : "Parolanız en az sekiz karakter olmalı",
+
 })
  
 export default ValidationMessages;

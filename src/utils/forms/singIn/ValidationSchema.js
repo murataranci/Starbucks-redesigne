@@ -5,5 +5,5 @@ export const SignInValidationScheme = yup.object().shape({
     email: yup.string()
     .email(ValidationMessages.EMAIL)
     .required(ValidationMessages.REQUIRED),
-   password: yup.string().required(ValidationMessages.REQUIRED),
+   password: yup.string().required(ValidationMessages.REQUIRED).min(8,ValidationMessages.MINCHARACTER),
 });

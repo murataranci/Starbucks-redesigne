@@ -5,8 +5,17 @@ import { SignInValidationScheme } from "../../utils/forms/singIn/ValidationSchem
 import { SignUpModel } from "../../utils/forms/singUp/InitialModels";
 import { SignUpValidationScheme  } from "../../utils/forms/singUp/ValidationSchema";
 import React from 'react'
+import { useDispatch } from 'react-redux';
+import { authCreateToken } from '../../services/store/auth/createToken';
+import axios from 'axios';
 
 function SignInUp() {
+
+  const dispatch = useDispatch();
+  const _login = (loginModel) => {
+    console.log(loginModel);
+    dispatch(authCreateToken(loginModel))
+  };
 
 
 
@@ -16,8 +25,8 @@ function SignInUp() {
     <div className='col-6 offset-3 mt-5'>
       <nav>
         <div className="nav nav-tabs mb-5" id="nav-tab" role="tablist">
-          <button className="nav-link active" id="nav-signin-tab" data-bs-toggle="tab" data-bs-target="#nav-signin" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Sign In</button>
-          <button className="nav-link " id="nav-signup-tab" data-bs-toggle="tab" data-bs-target="#nav-signup" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Sign Up</button>
+          <button className="nav-link active" id="nav-signin-tab" data-bs-toggle="tab" data-bs-target="#nav-signin" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Giriş Yap</button>
+          <button className="nav-link " id="nav-signup-tab" data-bs-toggle="tab" data-bs-target="#nav-signup" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Kayıt Ol</button>
         </div>
       </nav>
       <div className="tab-content" id="nav-tabContent">
@@ -25,16 +34,16 @@ function SignInUp() {
           <Formik
             initialValues={SingInModel}
             validationSchema={SignInValidationScheme}
-            onSubmit={(values , { resetForm }) => {
-            
-                
-                resetForm();
+            onSubmit={(values, { resetForm }) => {
+              _login(values);
+              resetForm();
             }}
+        
           >{({
             errors, touched, handleChange }) => (
             <Form>
 
-              <h1 className="h3 mb-5 fw-normal">Please sign in</h1>
+              <h1 className="h3 mb-5 fw-normal">Lütfen Giriş Yapın</h1>
 
               <div className="form-floating mb-3">
                 <input type="text" name='email' onChange={handleChange} className="form-control" id="floatingInput" />
@@ -61,19 +70,35 @@ function SignInUp() {
             initialValues={SignUpModel}
             validationSchema={SignUpValidationScheme}
             onSubmit={(values , { resetForm }) => {
-            
-                resetForm();
-               
-               
-            }
-          
+              axios.post("https://localhost:44361/api/Anonymous/Register",
+              {
+                headers: { 'Content-type': 'application/json' },
+                fullName: values.fullName,
+                email: values.email,
+                password: values.password,
+                rePassword: ""
+              }
+
+            ).then((response) => console.log(response.data))
+
+            resetForm();
+
+
           }
+
+          }
+               
+               
+               
+            
+          
+          
             
           >
             {({ errors, touched, handleChange, values }) => (
               <Form>
 
-                <h1 className="h3 mb-3 fw-normal">Please sign up</h1>
+                <h1 className="h3 mb-3 fw-normal">Lütfen Kayıt Olun</h1>
 
                 <div className="form-floating mb-3">
                   <input
