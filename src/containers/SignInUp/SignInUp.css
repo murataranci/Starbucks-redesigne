@@ -1,4 +1,4 @@
-.bd-placeholder-img {
+/* .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
   -webkit-user-select: none;
@@ -47,4 +47,39 @@
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+ } */
+ .signInUp{
+  margin-top: 3%;
+ }
+ .nav-link{
+  color: black!important;
+  background-color: #f2f2f2 !important;
+  width: 50%;
+  font-weight: 500 !important;
+ }
+ .nav-link.active {
+  color:#007146  !important;
+  background-color: white !important;
+ }
+ .signInButton{
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background-color: #007146;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+ }
+ .signUpButton{
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background-color: #007146;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 17px;
  }

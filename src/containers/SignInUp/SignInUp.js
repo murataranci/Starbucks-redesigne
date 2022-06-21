@@ -22,7 +22,7 @@ function SignInUp() {
 
 
   return (
-    <div className='col-6 offset-3 mt-5'>
+    <div className='signInUp col-3 offset-4'>
       <nav>
         <div className="nav nav-tabs mb-5" id="nav-tab" role="tablist">
           <button className="nav-link active" id="nav-signin-tab" data-bs-toggle="tab" data-bs-target="#nav-signin" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Giriş Yap</button>
@@ -43,20 +43,20 @@ function SignInUp() {
             errors, touched, handleChange }) => (
             <Form>
 
-              <h1 className="h3 mb-5 fw-normal">Lütfen Giriş Yapın</h1>
+              <h1 className="h3 mb-4 ">Lütfen Giriş Yapınız</h1>
 
               <div className="form-floating mb-3">
                 <input type="text" name='email' onChange={handleChange} className="form-control" id="floatingInput" />
-                <label for="floatingInput">Email address</label>
+                <label for="floatingInput">E-Posta</label>
                 {errors.email && touched.email ? <small >{errors.email}</small> : null}
               </div>
               <div className="form-floating mb-3">
                 <input type="password" name="password" onChange={handleChange} className="form-control" id="floatingPassword" />
-                <label for="floatingPassword">Password</label>
+                <label for="floatingPassword">Şifre</label>
                 {errors.password && touched.password ? <small>{errors.password}</small> : null}
               </div>
                 
-              <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+              <button className="signInButton" type="submit">Giriş Yap</button>
               
               <p className="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
             </Form>
@@ -98,7 +98,7 @@ function SignInUp() {
             {({ errors, touched, handleChange, values }) => (
               <Form>
 
-                <h1 className="h3 mb-3 fw-normal">Lütfen Kayıt Olun</h1>
+                <h1 className="h3 mb-4 fw-normal">Lütfen Kayıt Olunuz</h1>
 
                 <div className="form-floating mb-3">
                   <input
@@ -109,7 +109,7 @@ function SignInUp() {
                     className="form-control"
                     id="floatingInput"
                   />
-                  <label for="floatingInput">Full Name</label>
+                  <label for="floatingInput">İsim Soyisim</label>
                   {errors.fullName && touched.fullName ? <small >{errors.fullName}</small> : null}
                 </div>
                 <div className="form-floating mb-3">
@@ -120,7 +120,7 @@ function SignInUp() {
                     value={values.email}
                     className="form-control"
                     id="floatingInput" />
-                  <label for="floatingInput">Email address</label>
+                  <label for="floatingInput">E-Posta</label>
                   {errors.email && touched.email ? <small >{errors.email}</small> : null}
                 </div>
                 <div className="form-floating mb-3">
@@ -131,7 +131,7 @@ function SignInUp() {
                     value={values.password}
                     className="form-control"
                     id="floatingPassword" />
-                  <label for="floatingPassword">Password</label>
+                  <label for="floatingPassword">Şifre</label>
                   {errors.password && touched.password ? <small>{errors.password}</small> : null}
                 </div>
                 <div className="form-floating mb-3">
@@ -142,12 +142,12 @@ function SignInUp() {
                     value={values.rePassword}
                     className="form-control"
                     id="floatingPassword" />
-                  <label for="floatingPassword">Re-Password</label>
+                  <label for="floatingPassword">Şifre(Tekrar)</label>
                   {errors.rePassword && touched.rePassword ? <small>{errors.rePassword}</small> : null}
                 </div>
 
                 
-                <button className="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
+                <button className="signUpButton" type="submit">Kayıt Ol</button>
               
                 <p className="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
               </Form>

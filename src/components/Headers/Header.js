@@ -46,12 +46,13 @@ const Header = () => {
       
       {auth.token && (
           <button
-            className="btn btn-outline-secondary"
+            className="signOutButton"
             onClick={() => {
               _signOut();
             }}
           >
-            Sign out
+            <AiOutlineUser className="user" />
+            Çıkış yap
           </button>
         )}
       <Link to={'/sepet'} className="Shoppingcart">
