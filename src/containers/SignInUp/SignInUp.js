@@ -17,10 +17,6 @@ function SignInUp() {
     dispatch(authCreateToken(loginModel))
   };
 
-
-
-
-
   return (
     <div className='col-6 offset-3 mt-5'>
       <nav>

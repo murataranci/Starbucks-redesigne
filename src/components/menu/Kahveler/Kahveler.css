@@ -19,7 +19,6 @@
   align-items: center;
 }
 .kahvecard{
-  width:25%;
   margin-right: 5%;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -31,8 +30,9 @@
   border: none !important;
 }
 .cards{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  margin-left: 10%; 
+  grid-template-columns: auto auto auto auto;
 }
 .btn{
   background-color: #007146 !important;
