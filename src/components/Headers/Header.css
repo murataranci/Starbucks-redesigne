@@ -17,8 +17,6 @@
     cursor: pointer;
     animation:fadeInLeft;
     animation-duration: 2.5s;
-   
-    
 }
 .menu{
     margin-right: 8%;
@@ -29,23 +27,6 @@
 }
 .menu:hover{
     color: black;
-}
-.arama{
-    border: white;
-    border-radius: 10px 0 0 10px;
-    color: black;
-    outline: none;
-    width: 25%;
-    height: 25%;
-
-}
-.searchButton{
-    height: 25%;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 0 10px 10px 0;
-    margin-right: 24%;
 }
 .user{
     font-size:23px;
@@ -60,19 +41,6 @@
     cursor: pointer;
 }
 .giris:hover{
-    background-color: white;
-    color:  #007146
-}
-.kayıt{
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-
-    
-}
-.kayıt:hover{
     background-color: white;
     color:  #007146
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Header.css";
-import { FaSearch } from "react-icons/fa";
 import { AiOutlineShoppingCart,AiOutlineUser } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {authLogout} from "../../services/store/auth/index"
+import Search from "../Search/Search";
 
 
 const Header = () => {
@@ -25,14 +25,11 @@ const Header = () => {
           navigate("/");
         }}
       ></img>
+
       <Link className="menu" to={"/menu"}> Menü</Link>
-      <input
-        className="arama"
-        placeholder="Aradığınız ürünü yazınız.."
-      ></input>
-      <button className="searchButton">
-        <FaSearch />
-      </button>
+
+      <Search/>
+
       {!auth.token ? (
         <Link to={"/giris-yap"} className="giris">
         <AiOutlineUser className="user" />

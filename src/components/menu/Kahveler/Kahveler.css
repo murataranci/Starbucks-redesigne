@@ -19,9 +19,11 @@
   align-items: center;
 }
 .kahvecard{
+  padding: 0 !important;
+  margin: 0 !important;
   margin-right: 5%;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -30,9 +32,9 @@
   border: none !important;
 }
 .cards{
-  display: grid;
-  margin-left: 10%; 
-  grid-template-columns: auto auto auto auto;
+  display: grid; 
+  grid-template-columns: auto auto auto!important;
+  margin-left: 15% !important;
 }
 .btn{
   background-color: #007146 !important;
@@ -42,16 +44,29 @@
   width:100%;
 }
 .card-text{
-  margin-left: 5%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space:nowrap;
+  max-width:200px;
+}
+.card-text:hover{
+overflow: visible;
 }
 .price{
-  margin-left: 5%;
+  font-size: 25px;
+  margin-left: 30%;
+
 }
 .card-img-top{
   margin-top: 5%;
+  height: 200px;
   object-fit: contain;
+  width:inherit;
   transition: transform 2s;
 }
 .card-img-top:hover{
   transform: scale(1.1);
+}
+.card-title{
+  margin-top: 2%;
 }

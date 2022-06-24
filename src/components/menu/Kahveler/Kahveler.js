@@ -26,14 +26,14 @@ const Kahveler = () => {
       </div>
       
 
-      <div className="cards ">
+      <div className="cards container ">
          {coffee.filter(x=>x.categoryName=="Coffee Beans").map(item =>(
           
           
           <div className="kahvecard">
           <img
             className="card-img-top"
-            src="https://izmirgida.net/wp-content/uploads/2021/04/5730800623059.jpg"
+            src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/3272020/3272020-79794c-1650x1650.jpg"
             alt="Card image cap"/>
           <div className="card-body">
             <h5 className="card-title">  

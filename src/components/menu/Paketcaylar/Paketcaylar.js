@@ -24,10 +24,10 @@ const Paketcaylar = () => {
       </div>
       <div className="cards container">
       {tea.filter(x=>x.categoryName=="Tea Box").map(item =>(
-           <div className="caycard">
+           <div className="caycard ">
            <img
              className="card-img-top container"
-             src="https://productimages.hepsiburada.net/s/35/550/10495250104370.jpg/format:webp"
+             src="https://m.media-amazon.com/images/I/71VSlEHPN-L._SL1500_.jpg"
              alt="Card image cap"
            />
            <div className="card-body">
@@ -36,7 +36,7 @@ const Paketcaylar = () => {
              </h5>
              <p className="card-text">{item.description}</p>
              <h5 className="price">
-               <b>{item.price}TL</b>
+               <b>{item.price} TL</b>
              </h5>
              <button className="btn">Sepete Ekle</button>
            </div>
