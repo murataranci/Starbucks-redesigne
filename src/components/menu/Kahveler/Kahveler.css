@@ -62,10 +62,10 @@ overflow: visible;
   height: 200px;
   object-fit: contain;
   width:inherit;
-  transition: transform 2s;
+  transition: transform 1.5s;
 }
 .card-img-top:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .card-title{
   margin-top: 2%;

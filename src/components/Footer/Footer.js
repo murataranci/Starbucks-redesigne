@@ -10,8 +10,8 @@ import { FaPinterest } from "react-icons/fa";
 const Footer = () => {
   return (  
     <>
-    <div className='container footer-container'>
-      <div className='mt-5 col-12 row container'>
+    <div className='footer-container mt-5'>
+      <div className='mt-5 col-12 row'>
       <div id='footer1' className='col-2'>
         <img className='starbucks-logo' src='https://marka-logo.com/wp-content/uploads/2020/09/Starbucks-Logo.png' />
         <p className='mt-2'>© 2022 Starbucks Coffee Company.</p>
