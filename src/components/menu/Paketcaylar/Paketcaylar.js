@@ -27,7 +27,7 @@ const Paketcaylar = () => {
            <div className="caycard ">
            <img
              className="card-img-top container"
-             src="https://m.media-amazon.com/images/I/71VSlEHPN-L._SL1500_.jpg"
+             src={item.imgSource}
              alt="Card image cap"
            />
            <div className="card-body">

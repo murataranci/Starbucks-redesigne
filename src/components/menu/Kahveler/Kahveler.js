@@ -33,7 +33,7 @@ const Kahveler = () => {
           <div className="kahvecard">
           <img
             className="card-img-top"
-            src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/3272020/3272020-79794c-1650x1650.jpg"
+            src={item.imgSource}
             alt="Card image cap"/>
           <div className="card-body">
             <h5 className="card-title">  

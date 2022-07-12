@@ -28,7 +28,7 @@ const Aksesuarlar = () => {
           <div className="aksesuarcard">
           <img
             className="card-img"
-            src="https://n11scdn.akamaized.net/a1/640/spor-outdoor/outdoor-termoslar/starbucks-klasik-seri-termos-yesil-siyah-renkli-473-ml__1237404665799716.jpg"
+            src={item.imgSource}
             alt="Card image cap"
           />
           <div className="card-body">
