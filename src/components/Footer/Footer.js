@@ -13,7 +13,7 @@ const Footer = () => {
     <div className='footer-container mt-5'>
       <div className='mt-5 col-12 row'>
       <div id='footer1' className='col-2'>
-        <img className='starbucks-logo' src='https://marka-logo.com/wp-content/uploads/2020/09/Starbucks-Logo.png' />
+        <img className='starbucks-logo' src='https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Corporation_Logo_2011.svg' />
         <p className='mt-2'>© 2022 Starbucks Coffee Company.</p>
         <p className=''>All rights reserved.</p>
       </div>

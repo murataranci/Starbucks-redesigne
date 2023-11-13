@@ -4,6 +4,7 @@
 .Header{
     display: flex;
     align-items: center;
+    justify-content: center;
     background: rgb(195, 195, 195);
     background-color: #cfb083;
     background-image: linear-gradient(43deg, #ffffff 20%, #007146 90%);

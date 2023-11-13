@@ -20,7 +20,7 @@ const Header = () => {
     <div className="Header">
       <img
         className="starbucksLogo"
-        src="https://marka-logo.com/wp-content/uploads/2020/09/Starbucks-Logo.png"
+        src="https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Corporation_Logo_2011.svg"
         onClick={() => {
           navigate("/");
         }}

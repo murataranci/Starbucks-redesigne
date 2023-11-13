@@ -3,9 +3,11 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .starbucks-logo{
-    width: 40%;
+    width: 20%;
 }
 .footer-container p{
     font-size: 90%;

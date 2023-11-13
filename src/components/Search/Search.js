@@ -41,9 +41,14 @@ const Search = () => {
           }}
         />
 
-        {productList.length > 0 && searchKey.length > 2
-          ? productList.map((item) => <li>{item}</li>)
-          : null}
+    {productList.length > 0 && searchKey.length > 2 ? (
+      <ul>
+        {productList.map((item) => (
+          <li key={item.id}>{item}</li>
+        ))}
+      </ul>
+    ) : null}
+
       </div>
       <button className="searchButton">
         <FaSearch className="searchIcon" />

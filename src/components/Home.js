@@ -8,17 +8,17 @@ import "slick-carousel/slick/slick-theme.css";
 const ProductSlider = [{
   id: 1,
   title: "Frappuccino Caramel",
-  linkImage:"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08059617/08059617-5a4166-1650x1650.png"
+  linkImage:"https://images.migrosone.com/sanalmarket/product/08059617/08059617-5a4166-1650x1650.png"
 },
 {
   id: 2,
   title: "Doubleshot Espresso ",
-  linkImage:"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08089655/08089655-11ec07-1650x1650.png"
+  linkImage:"https://www.kismetsarkuteri.com/upload/images/xml/0030df294e9d934a4403ea212f5742bb.jpg"
 },
 {
   id: 3,
   title: "Medium Pike Place",
-  linkImage:"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/03242971/03242971-5782dd-1650x1650.jpg"
+  linkImage:"https://images.migrosone.com/sanalmarket/product/03242971/03242971-5782dd-1650x1650.jpg"
 },
 {
   id: 4,
@@ -28,7 +28,7 @@ const ProductSlider = [{
 {
   id: 5,
   title: "Toffee Nut Latte ",
-  linkImage:"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/03252562/03252562-c59872-1650x1650.jpg"
+  linkImage:"https://images.migrosone.com/sanalmarket/product/3252562/3252562-53ead9-1650x1650.jpg"
 }]
 
 const Home = () => {
@@ -40,7 +40,7 @@ const Home = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2200,
     cssEase: "linear"
   };
   return (
